@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NPR News Headlines</title>
+<style>
+h1 {
+background-color: black;
+color: #13274F;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: 1.6em;
+}
+
+body {
+background-color: black;
+color: white;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: 500;
+font-size: 1.6em;
+}
+</style>
+</head>	
+<body>
+<h1>NPR News Feed</h1>
+{% for story in storieslist  %}
+    <p> {{story}} </p>
+{% endfor %}
+</body>
+</html>
