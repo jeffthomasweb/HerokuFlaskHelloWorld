@@ -1,2 +1,2 @@
 # HerokuFlaskHelloWorld
-A hello world example for Heroku using Flask.
+A Python Flask App with the appropriate structure to deploy to Heroku.
