@@ -86,7 +86,7 @@ LICENSE  __pycache__  requirements.txt  templates
 ### app.py
 app.py is where we'll be placing most of our application's code.
 
-### Proecfile
+### Procfile
 Procfile (just Procfile, no file extension) let's Heroku know how we would like to setup our app. Our Procfile looks like:
 ```
 web: gunicorn app:app --log-file -
