@@ -183,7 +183,7 @@ You'll see your app being deployed in the termainl and will see a message like t
 ```
 remote: Verifying deploy... done.
 ```
-The website address will be displayed in the termainl and look something like https://peaceful-mountain-10820.herokuapp.com/.
+The website address will be displayed in the terminal and look something like https://peaceful-mountain-10820.herokuapp.com/. There will be another address that ends in ".git". Make sure to use the address that ends in ".com".
 
 If you encounter errors durirng deployment or if you receive an error when you enter the website URL into your browser, check the log for errors by typing:
 ```
