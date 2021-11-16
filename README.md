@@ -43,7 +43,7 @@ git config --global user.email "your_email_address"
 ```
 
 ### 3. Install the Heroku client for MacOS, Windows, or Linux
-Directions to install the Heroku client can be found here: https://devcenter.heroku.com/articles/getting-started-with-python.
+Directions to install the Heroku client can be found here: https://devcenter.heroku.com/articles/getting-started-with-python. Windows users: the Heroku documentation is a bit sparse for Windows. You may have better success using Windows Subsystem Linux https://docs.microsoft.com/en-us/windows/wsl/about.
 
 ## Building Our App
 Go to the directory you would like to start your project, for example:
@@ -92,6 +92,8 @@ Procfile (just Procfile, no file extension) let's Heroku know how we would like 
 web: gunicorn app:app --log-file -
 ```
 In our Procfile we're letting Heroku know that we're setting up a web application using Gunicorn as the Python Web Server Gateway Interface HTTP Server, our application's code is in the file `app.py`, and we're seting up logging. 
+
+The Procfile for Windows may be a bit different. The Heroku doucmentation is unfortunately a bit sparse on this topic. If you're on Windows it may be easiest to use Windows Subsystem Linux https://docs.microsoft.com/en-us/windows/wsl/about. Please see https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true#define-a-procfile for more information about the Heroku Procfile on Windows. 
 
 ### runtime.txt
 The `runtime.txt` file tells Heroku what Python version we're using for our app. Our `runtime.txt` file looks like this:
@@ -181,3 +183,7 @@ If you encounter errors durirng deployment or if you receive an error when you e
 ```
 heroku logs --tail
 ```
+
+Heroku documentation links: 
+https://www.heroku.com/python
+https://devcenter.heroku.com/articles/getting-started-with-python
