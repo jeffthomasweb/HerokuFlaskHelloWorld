@@ -144,7 +144,7 @@ Check that our git branch is "main" instead of "master" by typing:
 ```
 git status
 ```
-If our main git branch is called master, use the following to change to main:
+If our git branch is called master, use the following to change the name to main:
 
 ```
 git branch -m master main
