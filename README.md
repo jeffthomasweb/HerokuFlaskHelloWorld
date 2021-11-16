@@ -131,7 +131,7 @@ To see our Flask app run locally before deploying to Heroku, type:
 ```
 flask run
 ```
-and open http://127.0.0.1:5000/ in a browser. Hold the Ctrl c keys to stop the test web server.
+and open http://127.0.0.1:5000/ in a browser. Hold the Ctrl c keys when you'd like to stop the test web server.
 
 ### Deploying to Heroku
 To create a new Heroku project that we would like to deploy, type:
