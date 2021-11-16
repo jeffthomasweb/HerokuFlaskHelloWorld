@@ -1,4 +1,4 @@
-#Test for app using pytest
+#Tests for our Flask App using pytest
 
 import pytest
 from app import hello,helloroc #import hello() and helloroc() functions from file app.py
