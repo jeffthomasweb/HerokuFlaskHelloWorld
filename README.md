@@ -150,7 +150,7 @@ If our git branch is called master, use the following to change the name to main
 git branch -m master main
 ```
 
-The command git status will also let us know if any files have changed that we need to commit to git. To add these files, type:
+The command `git status` will also let us know if any files have changed that we need to commit to git. To add these files, type:
 
 ```
 git add <file name here>
