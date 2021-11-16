@@ -43,7 +43,13 @@ git config --global user.email "your_email_address"
 ```
 
 ### 3. Install the Heroku client for MacOS, Windows, or Linux
-Directions to install the Heroku client can be found here: https://devcenter.heroku.com/articles/getting-started-with-python. Windows users: the Heroku documentation is a bit sparse for Windows. You may have better success using Windows Subsystem Linux https://docs.microsoft.com/en-us/windows/wsl/about.
+Directions to install the Heroku client can be found here: https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true#set-up. Windows users: the Heroku documentation is a bit sparse for Windows. You may have better success using Windows Subsystem Linux https://docs.microsoft.com/en-us/windows/wsl/about. This article https://dev.to/wrightdotclick/heroku-cli-on-wsl-26fp may help setup Heroku on Windows Subsystem Linux. 
+
+After you install the Heroku client, login to your account by typing:
+```
+heroku login
+```
+You will only need to type `heroku login` the first time you use the Heroku client.
 
 ## Building Our App
 Go to the directory you would like to start your project, for example:
