@@ -7,7 +7,11 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
+<<<<<<< HEAD
 #Anyone that visits our site with the URL ending in /hi will see an HTTP response of Hello RocPy with emojis.
+=======
+#Anyone that visits our site at /hi will see a Hello RocPy message.
+>>>>>>> 2b95d937bc9beb38cb4c8fa35db97269c31c815f
 @app.route("/hi")
 def helloroc():
     return "Hello RocPy 🪨🐍!"
