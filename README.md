@@ -185,5 +185,5 @@ heroku logs --tail
 ```
 
 Heroku documentation links: 
-https://www.heroku.com/python
-https://devcenter.heroku.com/articles/getting-started-with-python
+   - https://www.heroku.com/python 
+   - https://devcenter.heroku.com/articles/getting-started-with-python
