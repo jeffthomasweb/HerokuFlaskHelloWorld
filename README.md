@@ -178,7 +178,7 @@ To push these changes to Heroku, type:
 git push heroku main
 ```
 
-You'll see your app being deployed in the termainl and will see a message like the one below when it's deployed:
+You'll see your app being deployed in the terminal and will see a message like the one below when it's deployed:
 
 ```
 remote: Verifying deploy... done.
