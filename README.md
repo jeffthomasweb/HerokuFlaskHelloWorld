@@ -97,7 +97,7 @@ Procfile (just Procfile, no file extension) let's Heroku know how we would like 
 ```
 web: gunicorn app:app --log-file -
 ```
-In our Procfile we're letting Heroku know that we're setting up a web application using Gunicorn as the Python Web Server Gateway Interface HTTP Server, our application's code is in the file `app.py`, and we're seting up logging. 
+In our Procfile we're letting Heroku know that we're setting up a web application using Gunicorn as the Python Web Server Gateway Interface HTTP Server, our application's code is in the file `app.py`, and we're setting up logging. 
 
 The Procfile for Windows may be a bit different. The Heroku doucmentation is unfortunately a bit sparse on this topic. If you're on Windows it may be easiest to use Windows Subsystem Linux https://docs.microsoft.com/en-us/windows/wsl/about. Please see https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true#define-a-procfile for more information about the Heroku Procfile on Windows. 
 
