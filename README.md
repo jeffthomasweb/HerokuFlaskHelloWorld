@@ -1,5 +1,5 @@
 # HerokuFlaskHelloWorld
-A Python Flask App with the appropriate structure to deploy to Heroku. Navigating to the URL /hi will display a Hello World message.
+A Python Flask App with the appropriate structure to deploy to Heroku. I used this repo as the basis for a presentation to Rochester, New York's Python Meetup group (RocPy) on 11/16/2021 and for a presentation at the NYC Python Meetup Group on 11/18/2021. Here's a Youtube link for one of the talks https://www.youtube.com/watch?v=in7J6U0NQ7o .
 
 ## Deploying a Python Web Application for Free and with Minimal Frustration
 
